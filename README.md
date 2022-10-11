@@ -1,4 +1,4 @@
-# RunX
+# RunX (Edit: do not use this tool, doesnt work properly, also is using external resources, not worth it)
 Online compiler for competitive programmers and all the coding enthusiasts.
 
 ## Install
@@ -8,7 +8,19 @@ Online compiler for competitive programmers and all the coding enthusiasts.
 ```pip3 install shortuuid```  
 ```poetry install```
 
-## Install
+## SQL migration script
+```
+CREATE TABLE "runx_database" (
+"id"	INTEGER,
+"uid"	TEXT,
+"lang"	TEXT,
+"fname"	TEXT,
+"src"	TEXT,
+PRIMARY KEY("id" AUTOINCREMENT)
+);
+```
+
+## Run
 ```python3 manage.py runserver```
 
 ## Features
