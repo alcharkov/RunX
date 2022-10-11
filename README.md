@@ -1,5 +1,10 @@
 # RunX
 Online compiler for competitive programmers and all the coding enthusiasts.
+
+## Install
+```pip3 install poetry```  
+```poetry install```
+
 ## Features
 * 👉 Use it as a simple compiler.
 * 👉 Autosaving code at every 10 seconds.
