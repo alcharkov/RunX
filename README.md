@@ -3,7 +3,13 @@ Online compiler for competitive programmers and all the coding enthusiasts.
 
 ## Install
 ```pip3 install poetry```  
+```pip3 install dj-database-url```  
+```pip3 install django-compression-middleware```  
+```pip3 install shortuuid```  
 ```poetry install```
+
+## Install
+```python3 manage.py runserver```
 
 ## Features
 * 👉 Use it as a simple compiler.
